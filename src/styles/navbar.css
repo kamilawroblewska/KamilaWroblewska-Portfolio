@@ -7,12 +7,12 @@
   }
   
   .navbar-nav li ~ li {
-    border-left: 1px solid rgba(196, 153, 175, 0.3); /* Add border between list items */
+    border-left: 1px solid rgba(56, 114, 186, 0.3); /* Add border between list items */
     padding: 0px 8px; /* Add padding to the rest of the list items */
   }
   
   .navbar {
-    background-color: #4c213d; /* Set background color */
+    background-color: #24202b; /* Set background color */
   }
   
   .navbar-brand,
@@ -21,15 +21,15 @@
   }
   
   .navbar-toggler  {
-    background-color: #390327; /* Set background color */
-    border-color: #d0aac4; /* Set border color */
+    background-color: #134f8f; /* Set background color */
+    border-color: #11032f; /* Set border color */
   }
   
   .navbar-brand:hover,
   .navbar-brand:focus,
   .nav-link:hover,
   .nav-link:focus {
-    color: #b43d70; /* Change text color on hover/focus */
+    color: #4183c0; /* Change text color on hover/focus */
   }
   
   @media screen and (max-width: 575px) { /* Adjust styles for smaller screens */
