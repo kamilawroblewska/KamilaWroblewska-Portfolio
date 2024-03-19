@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // Importing React to use JSX
+import { React, useState } from 'react'; // Importing React to use JSX
 import { Link } from 'react-router-dom'; // Importing Link to use anchor tags for routing
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importing Bootstrap CSS to style component
 import '../styles/navbar.css'; // Importing CSS file to style component
