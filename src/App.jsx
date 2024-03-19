@@ -6,11 +6,12 @@ import Home from './Components/home';
 import Resume from './Components/resume';
 import Projects from './components/projects';
 import Contact from './components/contact';
-
+import './App.css'
 function App() {
  
   return (
      <>
+     <main className='app-container'>
       <Router>
         <div>
           <Header/>
@@ -23,6 +24,7 @@ function App() {
           <Footer/>
         </div>
       </Router>
+      </main>
       </>
   )
 }

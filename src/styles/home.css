@@ -1,0 +1,21 @@
+.my-image {
+    border-radius: 50%;
+    margin-top: 40px; 
+  }
+  
+  @media screen and (max-width: 575px) { /* Adjust styles for smaller screens */
+    .my-image { 
+      margin-bottom: 20px; 
+    }
+    .about-animation {
+      padding: 10px; 
+    }
+  }
+  @media screen and (min-width: 575px) { /* Adjust styles for bigger screens */
+    .my-image { 
+      margin-bottom: 30px;
+    }
+    .about-animation {
+      padding-left: 100px; 
+    }
+  }
