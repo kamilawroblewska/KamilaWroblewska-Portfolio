@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './project'; 
 
 import WeatherDash from '../Components/Assets/ScreenProject.png';
-import JavaQuiz from '../Components/assets/ScreenProject2.png';
+import JavaQuiz from '../Components/assets/Screenproject2.png';
 import WorkScheduler from '../Components/assets/ScreenProject4.png';
 import Cari from '../Components/assets/ScreenProject3.png';
 import PassGen from '../Components/assets/ScreenProject5.png';
