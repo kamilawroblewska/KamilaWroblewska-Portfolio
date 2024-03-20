@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faFacebook, faTwitter, faInstagram, faGoogle } from '@fortawesome/free-brands-svg-icons';
 import '../styles/footer.css'
 
 
@@ -23,6 +23,9 @@ const Footer = () => {
         </a>
         <a href="https://www.instagram.com/kamila.wroblewska15/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} className="icon" />
+        </a>
+        <a href="mailto:kamila.wroblewska@gmail.com" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faGoogle} className="icon" />
         </a>
       </div>
     </footer>
