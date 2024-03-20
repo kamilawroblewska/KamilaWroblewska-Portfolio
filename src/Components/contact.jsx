@@ -8,14 +8,8 @@ const Contact = () => {
     message: ''
   });
 
-
-
-
-
   const handleChange = (e) => {
     setFormData({...formData, [e.target.name]: e.target.value});
-
-   
 
   };
 
@@ -30,7 +24,6 @@ const Contact = () => {
   
     return (
       
-   
 <section className="container py-4 col-md-6 mb-4">
     <div className="contact">
       <form className="card p-3 mt-3">
@@ -38,7 +31,7 @@ const Contact = () => {
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" className="form-control border-0 p-3" onChange={handleChange} />
         </div>
-        <div className="form-group">
+        <div className="form-group"> 
           <label htmlFor="email">Email</label>
           <input type="email" name="email" id="email" className="form-control border-0 p-3"  onChange={handleChange} />
         </div>
@@ -48,11 +41,8 @@ const Contact = () => {
         </div>
         <button type="submit" className="btn btn-primary p-3 mt-4 formButton" onClick={handleSubmit}>Submit</button>
      </form>
-      
     </div>
-  
   </section>  
-      
     
   )
 }
