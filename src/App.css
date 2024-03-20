@@ -1,0 +1,41 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .app-container {
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+  }
+  
+  body {
+    background-image: url("./Components/Assets/background1.jpg");
+    background-size: cover; 
+    background-attachment: fixed; 
+    color: #ffffff; 
+  }
+  
+  .card {
+    border-radius: 40px; 
+    box-shadow: 0 0 15px #0B2545; 
+    background: #0a2f66; 
+    border: none; 
+    color: #a9b8d6; 
+  }
+  .formButton {
+    background: #134f8f; 
+    border: none;
+    border-radius: 40px;
+  }
+  .formButton:hover {
+    background: #788a9f; 
+  }
+  .form-control {
+    background-color: rgb(125, 144, 182);
+  }
+  .form-control:focus {
+    background-color:rgb(161, 190, 206);
+  }
