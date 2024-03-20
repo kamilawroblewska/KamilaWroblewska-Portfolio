@@ -3,10 +3,10 @@ import Project from './project';
 
 import WeatherDash from '../Components/Assets/ScreenProject.png';
 import JavaQuiz from '../Components/assets/screen2.png';
-import WorkScheduler from '../Components/assets/ScreenProject4.png';
-import Cari from '../Components/assets/ScreenProject3.png';
-import PassGen from '../Components/assets/ScreenProject5.png';
-import ReadmeGen from '../Components/assets/ScreenProject1.png';
+import WorkScheduler from '../Components/assets/screen4.png';
+import Cari from '../Components/assets/screen4.png';
+import PassGen from '../Components/assets/screen5.png';
+import ReadmeGen from '../Components/assets/screen1.png';
 
 
 const Portfolio = () => {
