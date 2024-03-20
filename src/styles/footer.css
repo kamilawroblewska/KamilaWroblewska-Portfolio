@@ -1,0 +1,16 @@
+.icon {
+    color: #f3f3f3; 
+    height: 30px; 
+    width: 30px; 
+    margin-inline: 15px;
+    padding: 5px; 
+    vertical-align: middle; 
+  }
+  
+  .icon:hover {
+    color: #4183c0; 
+  }
+
+.footer {
+    padding-top: 30px;
+}
