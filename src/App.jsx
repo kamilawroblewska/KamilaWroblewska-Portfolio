@@ -4,9 +4,10 @@ import Header from './Components/header';
 import Footer from './components/footer';
 import Home from './Components/home';
 import Resume from './Components/resume';
-import Projects from './components/projects';
-import Contact from './components/contact';
+import Portfolio from './Components/portfolio'
+import Contact from './Components/contact';
 import './App.css'
+
 function App() {
  
   return (
@@ -16,9 +17,9 @@ function App() {
         <div>
           <Header/>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/" element={<Home/>} />
+            <Route exact path="/portfolio" element={<Portfolio />} />
             <Route exact path="/resume" element={<Resume />} />
-            <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/contact" element={<Contact />} />
           </Routes>
           <Footer/>
