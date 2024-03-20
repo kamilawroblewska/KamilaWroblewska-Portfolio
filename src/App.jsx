@@ -4,7 +4,7 @@ import Header from './Components/header';
 import Footer from './Components/footer';
 import Home from './Components/home';
 import Resume from './Components/resume';
-import Projects from './Components/projects';
+import Portfolio from './Components/portfolio';
 import Contact from './Components/contact';
 import './App.css'
 
