@@ -25,10 +25,10 @@ const Navbar = () => {
               <Link className='nav-link' to='/' onClick={() => setExpanded(false)}>Home</Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to='/resume' onClick={() => setExpanded(false)}>Resume</Link>
+              <Link className='nav-link' to='/portfolio' onClick={() => setExpanded(false)}>Portfolio</Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to='/projects' onClick={() => setExpanded(false)}>Projects</Link>
+              <Link className='nav-link' to='/resume' onClick={() => setExpanded(false)}>Resume</Link>
             </li>
             <li className='nav-item'>
               <Link className='nav-link' to='/contact' onClick={() => setExpanded(false)}>Contact</Link>
