@@ -2,11 +2,11 @@ import React from 'react';
 import Project from './project'; 
 
 import WeatherDash from '../Components/Assets/ScreenProject.png';
-import JavaQuiz from '../Components/assets/screen2.png';
-import WorkScheduler from '../Components/assets/screen4.png';
-import Cari from '../Components/assets/screen3.png';
-import PassGen from '../Components/assets/screen5.png';
-import ReadmeGen from '../Components/assets/screen1.png';
+import JavaQuiz from '../Components/Assets/screen2.png';
+import WorkScheduler from '../Components/Assets/screen4.png';
+import Cari from '../Components/Assets/screen3.png';
+import PassGen from '../Components/Assets/screen5.png';
+import ReadmeGen from '../Components/Assets/screen1.png';
 
 
 const Portfolio = () => {
