@@ -1,0 +1,20 @@
+
+  .project-card:hover {
+    transform: translateY(+10px); 
+    box-shadow: 0 12px 24px rgba(179, 202, 235, 0.6); 
+  }
+
+  .project1 {
+    background-color: #134f8f;
+    border: none;
+  }
+  .project1:hover {
+    background:  #a2aebb; ; 
+  }
+  .project2 {
+    background-color: #365b85;
+    border: none;
+  }
+  .project2:hover {
+    background: #a2aebb; 
+  }
