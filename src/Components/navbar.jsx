@@ -15,14 +15,14 @@ const Navbar = () => {
     // Returning the navigation bar with links to different sections of the application
     return (
       <nav className='navbar navbar-dark navbar-expand-sm'>
-        <Link className='navbar-brand ms-3' to='/home' onClick={() => setExpanded(false)}>Kamila Wroblewska</Link>
+        <Link className='navbar-brand ms-3' to='/KamilaWroblewska-Portfolio' onClick={() => setExpanded(false)}>Kamila Wroblewska</Link>
         <button className='navbar-toggler navbar-dark mx-2' type='button' onClick={handleToggle}>
           <span className='navbar-toggler-icon'></span>
         </button>
         <div className={`collapse navbar-collapse ${expanded ? 'show' : ''}`}>
           <ul className='navbar-nav ms-auto'>
             <li className='nav-item'>
-              <Link className='nav-link' to='/home' onClick={() => setExpanded(false)}>Home</Link>
+              <Link className='nav-link' to='/KamilaWroblewska-Portfolio' onClick={() => setExpanded(false)}>Home</Link>
             </li>
             <li className='nav-item'>
               <Link className='nav-link' to='/portfolio' onClick={() => setExpanded(false)}>Portfolio</Link>
