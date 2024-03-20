@@ -12,10 +12,10 @@ const Project = ({ title, image, deployedLink, githubLink }) => {
         </div>
         <img src={image} alt={title} />
         <div className='project-links py-1'>
-          <a href={deployedLink} target='_blank' rel='noopener noreferrer' className='btn btn-primary m-1'>
+          <a href={deployedLink} target='_blank' rel='noopener noreferrer' className='btn btn-primary project1 m-1'>
             Deployed Application
           </a>
-          <a href={githubLink} target='_blank' rel='noopener noreferrer' className='btn btn-secondary m-1'>
+          <a href={githubLink} target='_blank' rel='noopener noreferrer' className='btn btn-secondary project2 m-1'>
             GitHub Repository
           </a>
         </div>
