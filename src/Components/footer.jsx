@@ -18,9 +18,6 @@ const Footer = () => {
         <a href="https://www.facebook.com/zyje.by.wygrac15" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faFacebook} className="icon" />
         </a>
-        <a href="https://twitter.com/queenk1509" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faTwitter} className="icon" />
-        </a>
         <a href="https://www.instagram.com/kamila.wroblewska15/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faInstagram} className="icon" />
         </a>

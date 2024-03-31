@@ -14,19 +14,26 @@ const Home = () => {
         <div className='col-md-4 d-flex justify-content-center'>
           <img src={MyPhoto} alt='Profile picture' className='my-image' width='375' height='375' />
         </div>
-        <div className='col-md-8 d-flex align-items-center about-animation'>
-          
-          <TypeAnimation
+        <span className='col-md-8 d-flex align-items-center about-animation'>
+
+        <TypeAnimation
         sequence={[
-          `Hi!\nI'm Kamila Wroblewska,\nJunior Front-End Developer`,
+          "I'm Kamila Wroblewska",
           1000,
-          "",
+          "I'm a Front-End Developer",
+          1000,
+          "I'm a Designer",
+          1000,
+          '',
         ]}
         speed={50}
-        style={{ whiteSpace: 'pre-line', fontSize: '2em' }}
         repeat={Infinity}
+        style={{ fontSize: '2em',
+        display: 'block',
+        wordBreak: 'break-all'
+         }}
       />
-        </div>
+        </span>
       </div>
     </section>
       
